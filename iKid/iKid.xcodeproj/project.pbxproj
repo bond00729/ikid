@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92FAFFE1DCD4E22004997DD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92FAFFD1DCD4E22004997DD /* ThirdViewController.swift */; };
 		C9F97F401DC85A2700A2D87D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F97F3F1DC85A2700A2D87D /* AppDelegate.swift */; };
 		C9F97F421DC85A2700A2D87D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F97F411DC85A2700A2D87D /* FirstViewController.swift */; };
 		C9F97F441DC85A2700A2D87D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F97F431DC85A2700A2D87D /* SecondViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C92FAFFD1DCD4E22004997DD /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		C9F97F3C1DC85A2700A2D87D /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F97F3F1DC85A2700A2D87D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F97F411DC85A2700A2D87D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				C9F97F3F1DC85A2700A2D87D /* AppDelegate.swift */,
 				C9F97F411DC85A2700A2D87D /* FirstViewController.swift */,
 				C9F97F431DC85A2700A2D87D /* SecondViewController.swift */,
+				C92FAFFD1DCD4E22004997DD /* ThirdViewController.swift */,
 				C9F97F451DC85A2700A2D87D /* Main.storyboard */,
 				C9F97F481DC85A2700A2D87D /* Assets.xcassets */,
 				C9F97F4A1DC85A2700A2D87D /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				C9F97F441DC85A2700A2D87D /* SecondViewController.swift in Sources */,
 				C9F97F401DC85A2700A2D87D /* AppDelegate.swift in Sources */,
+				C92FAFFE1DCD4E22004997DD /* ThirdViewController.swift in Sources */,
 				C9F97F421DC85A2700A2D87D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 				C9F97F681DC85A2700A2D87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F97F691DC85A2700A2D87D /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				C9F97F6B1DC85A2700A2D87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F97F6C1DC85A2700A2D87D /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				C9F97F6E1DC85A2700A2D87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
